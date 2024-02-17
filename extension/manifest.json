@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Free Medium",
-  "version": "1.0.0",
+  "name": "FreeMedium",
+  "version": "1.0",
   "description": "An extension to read Medium posts for free.",
   "icons": {
     "16": "images/icon-16.png",
@@ -9,11 +9,11 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://*.medium.com/*"
       ],
       "js": [
         "content.js"
