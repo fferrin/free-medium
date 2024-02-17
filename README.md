@@ -9,7 +9,7 @@
 
 # FreeMedium
 
-The FreeMedium Chrome extension allows you to read Medium articles for free by bypassing the paywall. It adds a button to Medium articles, allowing you to access the full content without a subscription.
+The FreeMedium Chrome extension allows you to read Medium articles for free by bypassing the paywall thanks to [Freedium](https://github.com/Freedium-cfd). It adds a button to Medium articles, allowing you to access the full content without a subscription.
 
 ## Installation
 
