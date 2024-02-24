@@ -45,3 +45,6 @@ This project is licensed under the [MIT License](https://github.com/git/git-scm.
 
 <a href="https://www.buymeacoffee.com/fferrin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
+![](./screenshots/01-medium.png)
+![](./screenshots/02-freedium.png)
+
