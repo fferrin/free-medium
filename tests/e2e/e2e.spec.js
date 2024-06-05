@@ -3,9 +3,9 @@ import { test, expect } from './fixtures';
 
 
 const urls = [
-  'https://somesubdomain.medium.com/',
-  'https://medium.com/',
-  'https://levelup.gitconnected.com/',
+  'https://somesubdomain.medium.com',
+  'https://medium.com',
+  'https://levelup.gitconnected.com',
 ]
 
 for (const url of urls) {

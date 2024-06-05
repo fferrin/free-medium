@@ -21,7 +21,7 @@ You can install the FreeMedium Chrome extension by following these steps:
 
 3. Enable Developer mode by toggling the switch in the top right corner.
 
-4. Click on the "Load unpacked" button and select the directory where you downloaded the extension files.
+4. Click on the "Load unpacked" button and **select the `extension` folder**.
 
 5. The FreeMedium extension should now be installed and visible in the list of installed extensions.
 
@@ -38,6 +38,8 @@ To use the FreeMedium extension:
 ## Contributing
 
 Contributions are welcome! If you have any ideas for improving the FreeMedium extension or encounter any issues, feel free to [open an issue](https://github.com/fferrin/free-medium/issues) or submit a pull request.
+
+It appears that Google only approves extensions that request minimal permissions. Since this extension is designed for reading Medium posts, I initially restricted its usage to *.medium.com pages. However, Google rejected the extension from the Chrome Web Store because they don't allow extension to bypass paywalls. Because of that, I released the code so you can see what the extension is doing and, because of that, I'm not restricted to add as many aliases as I want. **If you would like to add other Medium aliases**, please create an [issue](https://github.com/fferrin/free-medium/issues) with the alias(es) you want me to include.
 
 ## License
 
