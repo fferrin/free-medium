@@ -7,8 +7,6 @@ function freeUrl(url) {
 }
 
 document.addEventListener("readystatechange", (event) => {
-  if (window.location.host.endsWith("medium.com")) {
-    const button = document.createElement("button");
     button.id = "free-medium__button";
     button.textContent = "Read for free";
     button.style.position = "fixed";
@@ -29,6 +27,5 @@ document.addEventListener("readystatechange", (event) => {
     });
 
     document.body.appendChild(button);
-  }
 });
 
