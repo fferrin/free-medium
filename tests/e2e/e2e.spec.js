@@ -1,7 +1,6 @@
 // @ts-check
 import { test, expect } from './fixtures';
 
-
 const urls = [
   'https://somesubdomain.medium.com',
   'https://medium.com',
@@ -11,7 +10,7 @@ const urls = [
 for (const url of urls) {
   test(`Button exists in "${url}" page`, async ({ page }) => {
     const mediumUrl = `${url}/some-post`
-    const expectedUrl = 'https://freedium.cfd/some-post' 
+    const expectedUrl = 'https://readmedium.com/some-post'
 
     await page.goto(mediumUrl);
     expect(page.locator('button#free-medium__button')).toBeDefined();
