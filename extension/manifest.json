@@ -65,7 +65,30 @@
         "https://uxdesign.cc/*",
         "https://writingcooperative.com/*",
         "https://www.eruditeelders.com/*",
-        "https://yc.prosetech.com/*"
+        "https://yc.prosetech.com/*",
+        "https://learnaitoprofit.com/*",
+        "https://bootcamp.uxdesign.cc/*",
+        "https://dailydevsblog.com/*",
+        "https://machinelearningpub.com/*",
+        "https://medium.engineering/*",
+        "https://morioh.com/*",
+        "https://neuralnetworkpress.com/*",
+        "https://stories.byburk.net/*",
+        "https://quickreads.dev/*",
+        "https://refactoring.guru/*",
+        "https://startupsventure.com/*",
+        "https://startupsandmore.com/*",
+        "https://theappliedai.com/*",
+        "https://theinnovationhub.medium.com/*",
+        "https://towardsblockchain.com/*",
+        "https://tryleap.ai/*",
+        "https://underrated.dev/*",
+        "https://userexperiencestack.com/*",
+        "https://uxplanet.org/*",
+        "https://venturebeat.medium.com/*",
+        "https://victorzhou.com/*",
+        "https://zerotomastery.io/*"
+
       ],
       "js": [
         "content.js"
