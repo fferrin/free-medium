@@ -65,7 +65,10 @@
         "https://uxdesign.cc/*",
         "https://writingcooperative.com/*",
         "https://www.eruditeelders.com/*",
-        "https://yc.prosetech.com/*"
+        "https://yc.prosetech.com/*",
+        "https://stories.byburk.net/*",
+        "https://theinnovationhub.medium.com/*",
+        "https://neuralnetworkpress.com/*"
       ],
       "js": [
         "content.js"
