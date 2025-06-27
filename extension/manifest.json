@@ -65,7 +65,8 @@
         "https://uxdesign.cc/*",
         "https://writingcooperative.com/*",
         "https://www.eruditeelders.com/*",
-        "https://yc.prosetech.com/*"
+        "https://yc.prosetech.com/*",
+        "https://stories.byburk.net/*"
       ],
       "js": [
         "content.js"
