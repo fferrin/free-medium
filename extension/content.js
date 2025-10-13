@@ -1,7 +1,7 @@
 function freeUrl(url) {
   const urlObj = new URL(url)
 
-  urlObj.host = "freedium.cfd";
+  urlObj.host = "readmedium.com";
 
   return urlObj.href;
 }
