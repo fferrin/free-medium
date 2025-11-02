@@ -1,7 +1,7 @@
 function freeUrl(url) {
   const urlObj = new URL(url)
 
-  urlObj.host = "readmedium.com";
+  urlObj.host = "freedium-mirror.cfd";
 
   return urlObj.href;
 }
@@ -10,16 +10,16 @@ function freeUrl(url) {
 describe("freeUrl", () => {
   it("converts the URLs correctly", () => {
     expect(freeUrl("https://medium.com/my-post")).toBe(
-      "https://readmedium.com/my-post"
+      "https://freedium-mirror.cfd/my-post"
     );
     expect(freeUrl("https://www.medium.com/my-post")).toBe(
-      "https://readmedium.com/my-post"
+      "https://freedium-mirror.cfd/my-post"
     );
     expect(freeUrl("https://some-subdomain.medium.com/my-post")).toBe(
-      "https://readmedium.com/my-post"
+      "https://freedium-mirror.cfd/my-post"
     );
     expect(freeUrl("https://medium.com/hackernoon/hello-world-79436a73e443")).toBe(
-      "https://readmedium.com/hackernoon/hello-world-79436a73e443"
+      "https://freedium-mirror.cfd/hackernoon/hello-world-79436a73e443"
     );
   });
 });
