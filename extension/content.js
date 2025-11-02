@@ -1,7 +1,7 @@
 function freeUrl(url) {
   const urlObj = new URL(url)
 
-  urlObj.host = "readmedium.com";
+  urlObj.host = "freedium-mirror.cfd";
 
   return urlObj.href;
 }
